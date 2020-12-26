@@ -1,0 +1,25 @@
+{
+    "name": "llvm-syntax-highlighting",
+    "displayName": "LLVM Syntax Highlighting",
+    "description": "Syntax highlighting for theming of LLVM ",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.52.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "llvm",
+            "aliases": ["LLVM", "llvm"],
+            "extensions": [".ll"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "llvm",
+            "scopeName": "source.ll",
+            "path": "./syntaxes/llvm.tmLanguage.json"
+        }]
+    }
+}
