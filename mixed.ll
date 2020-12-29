@@ -6,7 +6,7 @@ target triple="x86_64"
 
 define void @tailrecursive(i64 %num)
 {
-LU2:
+vector.vector:
   br label %LU3
 LU3:
   %u0 = icmp sle i64 %num, 0
@@ -30,7 +30,6 @@ LU12:
   %u6 = add i64 %x, %y
   ret i64 %u6
 }
-
 
 define void @domath(i64 %num)
 {
@@ -89,8 +88,7 @@ LU23:
 }
 
 
-define void @objinstantiation(i64 %num)
-{
+define void @objinstantiation(i64 %num) {
 LU31:
   br label %LU32
 LU32:
