@@ -35,18 +35,18 @@
 	],
 	"repository": {
 		"function-headers": {
-			"begin": "((@\\w*)(\\())",
-			"end": "(\\))",
+			"begin": "(@\\w*)(\\()",
+			"end": "\\)",
 			"beginCaptures": {
-				"2": {
+				"1": {
 					"name": "entity.name.function"
 				},
-				"3": {
+				"2": {
 					"name": "punctuation.separator.parameters.begin.llvm"
 				}
 			},
 			"endCaptures": {
-				"1": {
+				"0": {
 					"name": "punctuation.separator.parameters.end.llvm"
 				}
 			},
