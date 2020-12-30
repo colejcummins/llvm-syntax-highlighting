@@ -116,7 +116,7 @@
 				},
 				{
 					"name": "keyword.other.llvm",
-					"match": "\\b(?<![%\\.])(add|alloca|and|ashr|atomicrmw|attributes|bitcast|call|cmpxchg|declare|exact|extractelement|extractvalue|fadd|fcmp|fdiv|fence|fmul|fpext|fptosi|fptoui|fptrunc|frem|fsub|getelementptr|icmp|indirectbr|insertelement|insertvalue|inttoptr|invoke|landingpad|load|lshr|mul|one|or|ord|ptrtoint|resume|ret|sdiv|select|sext|shl|shufflevector|sitofp|srem|store|sub|switch|target|trunc|type|udiv|uitofp|unreachable|unwind|urem|va_arg|xor|zext)\\b"
+					"match": "\\b(?<![%\\.])(add|alloca|and|ashr|atomicrmw|attributes|bitcast|call|cmpxchg|declare|exact|extractelement|extractvalue|fadd|fcmp|fdiv|fence|fmul|fpext|fptosi|fptoui|fptrunc|frem|fsub|getelementptr|global|icmp|indirectbr|insertelement|insertvalue|inttoptr|invoke|landingpad|load|lshr|mul|one|or|ord|ptrtoint|resume|ret|sdiv|select|sext|shl|shufflevector|sitofp|srem|store|sub|switch|target|trunc|type|udiv|uitofp|unreachable|unwind|urem|va_arg|xor|zext)\\b"
 				},
 				{
 					"name": "storage.type.function.llvm",

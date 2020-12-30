@@ -12,7 +12,7 @@ This extension provides simple, lightweight syntax highlighting for LLVM IR.
 #
 ## Language Forms Supported
 
-As LLVM as a language is dense and constantly changing, this extension is meant to provide syntax highlighting to the most common language forms found in LLVM IR
+This extension is meant to provide clean syntax highlighting to the most common language forms found in LLVM IR. An example `.ll` file highlighting the language forms supported can be found under `./lib/example.ll`
 
 * Types
   * primitive types

@@ -1,9 +1,12 @@
 target triple="x86_64"
 
+
 %struct.list = type { i64, %struct.list* }
 %struct.mystruct = type { double, i32, [10 x i8] }
 
+
 @globallist = common global %struct.list* null, align 4
+
 
 define void @tailrecursive(i64 %num)
 {
@@ -22,6 +25,7 @@ LU4:
   ret void
 }
 
+
 ; Number examples
 define double @foo(double %a) #0
 {
@@ -30,6 +34,7 @@ define double @foo(double %a) #0
   %3 = fdiv double %2, 12.75          ; Float
   ret double %3
 }
+
 
 ; Vector, attribute, struct examples
 define double @bar(%struct.mystruct* byval nocapture readonly align 8 %a)
