@@ -4,6 +4,7 @@
     "description": "Lightweight syntax highlighting for LLVM IR",
     "version": "0.0.1",
     "publisher": "colejcummins",
+    "icon": "llvmlogo.png",
     "repository": {
         "type": "git",
         "url": "https://github.com/colejcummins/llvm-syntax-highlighting.git"
