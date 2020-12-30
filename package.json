@@ -1,10 +1,15 @@
 {
     "name": "llvm-syntax-highlighting",
     "displayName": "LLVM Syntax Highlighting",
-    "description": "Syntax highlighting for theming of LLVM ",
+    "description": "Lightweight syntax highlighting for LLVM IR",
     "version": "0.0.1",
+    "publisher": "colejcummins",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/colejcummins/llvm-syntax-highlighting.git"
+    },
     "engines": {
-        "vscode": "^1.52.0"
+        "vscode": "^1.40.0"
     },
     "categories": [
         "Programming Languages"
