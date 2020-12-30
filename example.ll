@@ -30,7 +30,7 @@ LU4:
 define double @foo(double %a) #0
 {
   %1 = fmul double %a, 2.00000e+01    ; Hexadecimal exponent form
-  %2 = fadd double %1, x7f8a          ; Hexadecimal
+  %2 = fadd double %1, 0x7f8a         ; Hexadecimal
   %3 = fdiv double %2, 12.75          ; Float
   ret double %3
 }
